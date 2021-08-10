@@ -31,8 +31,43 @@
 # 함수이름(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
 
 
-def print_n_times(value, n=5):
-    for i in range(n):
-        print(value)
+# def print_n_times(value, n=5):
+#     for i in range(n):
+#         print(value)
 
-print_n_times("안녕하세요")
+# print_n_times("안녕하세요")
+
+
+# def function(일반매개변수A, 일반매개변수B, *가변매개변수, 기본매개변수A=10, 기본매개변수B=20):
+#     print(일반매개변수A, 일반매개변수B)
+#     print(가변매개변수)
+#     print(기본매개변수A, 기본매개변수B)
+
+# function(0,1,2,3,4,5,6,7,8,9,10, 기본매개변수A=11, 기본매개변수B=12)
+
+
+
+# def print_n_times(*values, n=2):
+#     #n번 반복합니다ㅣ.
+#     for i in range(n):
+#         #values 는 리스트처럼 활요한다.
+#         for value in values:
+#             print(value)
+#         #단순한 줄바꿈
+#         print()
+
+# #함수를 호출한다.
+# print_n_times("안녕하세요", "즐거운", "파이썬 프로그래밍", n=3)
+
+
+def test(a, b=10, c=100):
+    print(a + b+ c)
+
+#1 기본형태
+test(10, 20, 30)
+#2 키워드 매개변수로 모든 매개변수를 지정한 형태
+test(a=10, b=100, c=200)
+#3 키워드 매개변수로 모든 매개변수를 마구잡이로 지정한 형태
+test(c=10, a=100, b=200)
+#4 키워드 매개변수로 일부 매개변수만 지정한 형태
+test(10, c=200)
