@@ -1,6 +1,6 @@
 딕셔너리 = {
-    "문자열" : "값A",
-    273 : [1, 2, 3, 4],
+    "문자열": "값A",
+    273: [1, 2, 3, 4],
     True: False
 }
 
@@ -12,6 +12,6 @@ print()
 for key in 딕셔너리:
     print("{} : {}".format(key, 딕셔너리[key]))
 
-del 딕셔너리["키"]
+ del 딕셔너리["키"]
 for key in 딕셔너리:
     print("{} : {}".format(key, 딕셔너리[key]))
