@@ -10,4 +10,5 @@ print(b)
 print(id(a))
 print(id(b))  # id를 사용해서 주소값을 보면 동일한 것을 알 수 있다.
 
-print(a is b)  # a와 b가 같은곳을 바로보고있냐 즉 같은 주소값을 가지고 있냐를 물어보는 is
+print(a is b)
+# a와 b가 같은곳을 바로보고있냐 즉 같은 주소값을 가지고 있냐를 물어보는 is
