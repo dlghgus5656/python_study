@@ -9,7 +9,7 @@
 # for i in reversed(리스트):
 # for i, element in enumerate(리스트):
 # for key, value in 딕셔너리.items():
-#----------------------------------------------
+# ----------------------------------------------
 # a = [0, 1, 2, 3, 4, 5]
 # reversed_a = reversed(a)
 # print(list(reversed_a)) # list를 안써주면 에러가난다.
@@ -45,7 +45,7 @@
 # array_1 = [i for i in range(10) if i % 2 == 0]
 
 # print(array_1)
-#--------------------------------
+# --------------------------------
 
 # 10진수와 2진수 변환
 # print("{:b}".format(10)) # {:b} =십진수로 바꿔주는 코드
@@ -63,4 +63,4 @@
 output = [i for i in range(1, 100 + 1) if "{:b}".format(i).count("0") == 1]
 for i in output:
     print("{} : {}".format(i, "{:b}".format(i)))
-print("합계: {}".format(sum(output))) # 위 코딩과 같은 결과를 출력함 리스트내포를 사용한 코드이다.
+print("합계: {}".format(sum(output)))  # 위 코딩과 같은 결과를 출력함 리스트내포를 사용한 코드이다.
